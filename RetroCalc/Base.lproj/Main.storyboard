@@ -287,6 +287,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKT-lp-Ag8">
+                                <rect key="frame" x="181" y="122" width="74" height="75"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="IuT-mY-h50"/>
+                                    <constraint firstAttribute="width" constant="74" id="WGk-df-sYE"/>
+                                </constraints>
+                                <state key="normal" image="clear"/>
+                                <connections>
+                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Pe-bD-1fa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -295,6 +307,7 @@
                             <constraint firstItem="Ht3-Ke-u1P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9jq-LM-amH"/>
                             <constraint firstAttribute="trailing" secondItem="P5X-XN-Fwh" secondAttribute="trailing" id="CAH-wW-tCe"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ht3-Ke-u1P" secondAttribute="bottom" id="CZ6-qP-yV4"/>
+                            <constraint firstItem="uRq-qw-PH3" firstAttribute="top" secondItem="fKT-lp-Ag8" secondAttribute="top" id="Gst-Sh-dR9"/>
                             <constraint firstItem="uRq-qw-PH3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HUz-l7-Eaq"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="P5X-XN-Fwh" secondAttribute="bottom" id="IwB-2s-maY"/>
                             <constraint firstItem="Ht3-Ke-u1P" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L8e-Ic-n9x"/>
@@ -304,6 +317,7 @@
                             <constraint firstItem="uRq-qw-PH3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XqN-Zg-pNS"/>
                             <constraint firstAttribute="trailing" secondItem="Ht3-Ke-u1P" secondAttribute="trailing" id="d3l-vR-1UV"/>
                             <constraint firstItem="8bk-Lj-TOv" firstAttribute="centerX" secondItem="uRq-qw-PH3" secondAttribute="centerX" id="g4t-Tr-ViX"/>
+                            <constraint firstItem="uRq-qw-PH3" firstAttribute="leading" secondItem="fKT-lp-Ag8" secondAttribute="leading" id="sLG-jf-BVT"/>
                         </constraints>
                     </view>
                     <connections>
@@ -328,6 +342,7 @@
         <image name="9" width="111" height="114"/>
         <image name="add" width="111" height="114"/>
         <image name="backpanel" width="620" height="938"/>
+        <image name="clear" width="333" height="114"/>
         <image name="counter" width="516" height="133"/>
         <image name="divide" width="111" height="114"/>
         <image name="equal" width="111" height="114"/>
